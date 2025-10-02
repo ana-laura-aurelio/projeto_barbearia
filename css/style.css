@@ -1,0 +1,48 @@
+/* regras para toda a página */
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+header nav {
+    /* define que a exibição dos elementos */
+    /* por padrão ficarão m linha, um na frente do outro */
+    display: flex;
+    /* alinha os elementos na horizontal */
+    justify-content: space-between;
+    /* alinha os elemenetos na vertical */
+    align-items: center;
+    height: 15vh;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+header a:hover{
+    background: #000;
+    color: #fff;
+}
+header img{
+    width: 220px;
+}
+#banner{
+    background: url(../img/06.jpg)no-repeat center center fixed;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    filter: grayscale(1.9);
+}
+body{
+    /* remove a margem padrão do corpo da página */
+    margin: 0;
+}
