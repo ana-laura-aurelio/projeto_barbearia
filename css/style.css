@@ -106,3 +106,39 @@ body{
 #servicos-icones img{
     width: 130px;
 }
+#promocoes{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+}
+#promocoes div{
+    flex:1 1 calc(50% - 30px);
+}
+#promocoes img{
+    width: 100%;
+}
+#promocoes h3{
+    color: #f22727;
+}
+#promocoes h2{
+font-size: 2rem;
+}
+#promocoes ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+#promocoes ul li::before{
+    content: "\2713";
+    padding-left: 8px;
+    color: #f22727;
+}
+#promocoes button{
+    padding: 10px;
+    background: #3264A6;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+}
