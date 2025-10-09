@@ -13,6 +13,9 @@ header nav {
     /* alinha os elemenetos na vertical */
     align-items: center;
     height: 15vh;
+    padding:0px 5px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 header nav ul {
@@ -24,7 +27,7 @@ header nav ul {
 header a {
     text-decoration: none;
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 8px 12px;
     border-radius: 5px;
 }
@@ -40,9 +43,66 @@ header img{
     background-size: cover;
     height: 85vh;
     display: flex;
-    filter: grayscale(1.9);
+    align-items: center;
 }
 body{
     /* remove a margem padrão do corpo da página */
     margin: 0;
+}
+#banner-texto{
+    width: 1200px;
+    margin: auto;
+}
+#banner-texto h1{
+    color: #fff;
+    font-size: 6rem;
+    text-shadow: 0 0 10px #000;
+    letter-spacing: 5px;
+}
+#banner-texto h5{
+    color:#3264A6;
+    font-size: 2rem;
+    text-shadow: 0 0 10px #000;
+}
+#banner-texto h4{
+    color: #fff;
+    font-size: 2rem;
+    text-shadow:0 0 10px #000;
+}
+#banner-texto button{
+    padding: 8px 14px;
+    border-radius: 4px;
+    background: #3264A6;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    font-size: 2rem;
+    font-weight: bold;
+    box-shadow: 2px 2px 1px #fff;
+    cursor: pointer;
+}
+#banner-texto button:hover{
+    transform: scale(1.03);
+    background: #24528e;
+}
+#servicos{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#servicos h2{
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px 0px;
+}
+#servicos-icones{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#servicos-icones div{
+    flex: 1 1 calc(33.3% - 30px);
+}
+#servicos-icones img{
+    width: 130px;
 }
