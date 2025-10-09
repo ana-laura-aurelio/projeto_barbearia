@@ -142,3 +142,21 @@ font-size: 2rem;
     border-radius: 4px;
     font-size: 1rem;
 }
+#promocoes2{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+}
+#promocoes2 div{
+    flex:1 1 calc(50% - 30px);
+}
+#promocoes2 img{
+    width: 100%;
+}
+#promocoes2 h3{
+    color: #f22727;
+}
+#promocoes2 h2{
+    font-size: 2rem;
+}
