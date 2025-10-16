@@ -147,6 +147,7 @@ font-size: 2rem;
     margin: 0 auto;
     margin-top: 70px;
     display: flex;
+    gap: 30px;
 }
 #promocoes2 div{
     flex:1 1 calc(50% - 30px);
@@ -159,4 +160,83 @@ font-size: 2rem;
 }
 #promocoes2 h2{
     font-size: 2rem;
+}
+#promocoes2 ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+#promocoes2 ul li::before{
+content: "\2713";
+    padding-left: 8px;
+    color: #f22727;
+}
+#promocoes2 button{
+    padding: 10px;
+    background: #3264A6;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+#avaliacao-img1{
+    background: url(../img/homem-avaliacao-1.jpg) no-repeat center center;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    border-radius: 50%;
+}
+#avaliacoes{
+    display: flex;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 120px auto;
+}
+#avaliacao-img2{
+    background: url(../img/homem-avaliacao-2.jpg) no-repeat center center;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    border-radius: 50%;
+}
+#avaliacao-img3{
+    background: url(../img/homem-avaliacao-3.jpg) no-repeat center center;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    border-radius: 50%;
+}
+#avaliacoes h4{
+color: #f22727;
+font-size: 1.3rem;
+}
+.avaliacao-card{
+    border: 1px solid #000;
+    padding: 15px;
+    border-radius: 5px;
+}
+#agendamento-banner{
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    background: url(../img/18.jpg) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+}
+#agendamento-baner h2{
+    font-size: 3rem;
+    margin-top: 0px;
+}
+#agendamento{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 800px;
+    background: #fff;
+    margin-top: -120px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
